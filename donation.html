@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation</title>
+</head>
+<body>
+    <h1>Donation</h1>
+    <p>Silakan donasi untuk mendukung situs web kami:</p>
+    
+    <!-- Formulir donasi menggunakan PayPal -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <!-- Kode untuk mengidentifikasi akun PayPal Anda -->
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="email_akun_paypal_anda@example.com">
+
+        <!-- Detail donasi -->
+        <input type="hidden" name="item_name" value="Donasi untuk Situs Web Kami">
+        <input type="hidden" name="currency_code" value="USD">
+
+        <!-- Input jumlah donasi -->
+        <label for="amount">Jumlah Donasi (USD):</label>
+        <input type="number" id="amount" name="amount" step="0.01" min="0.01" required>
+        
+        <!-- Tombol submit -->
+        <input type="submit" value="Donasi Sekarang">
+    </form>
+</body>
+</html>
