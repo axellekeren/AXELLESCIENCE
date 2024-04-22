@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    {"source": "/(.*)", "destination": "/"}
-  ],
-  "additionalConfig": "https://axellescience-bjn5.vercel.app/"
+    {"source": "/(.*)", "destination": "https://axellescience-bjn5.vercel.app/"}
+  ]
 }
