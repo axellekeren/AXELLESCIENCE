@@ -1,6 +1,0 @@
-{
-  "env": {
-    "API_KEY": "https://axellescience.io/",
-    "NODE_ENV": "production"
-  }
-}
