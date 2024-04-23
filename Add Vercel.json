@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    {"source": "/(.*)", "destination": "https://axellescience-bjn5.vercel.app/"}
-  ]
-}
