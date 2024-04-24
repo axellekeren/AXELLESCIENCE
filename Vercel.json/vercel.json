@@ -1,9 +1,18 @@
 {
-    "rewrites": [
-      {
-        "source": "/old-path/:slug",
-        "destination": "/new-path/:slug"
-      }
-    ]
-  }
+  "version": 2,
+  "name": "AXELLESCIENCE",
+  "builds": [
+    {
+      "src": "About.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/About.html"
+    }
+  ]
+}
+
   
