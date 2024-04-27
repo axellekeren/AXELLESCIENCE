@@ -4,7 +4,14 @@ const responseObject = {
         "Content-Type": "application/json"
     },
     body: {
-        message: "Hello, world!"
+        {
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "body": "{\"message\": \"Hello, world!\"}"
+}
+
     }
 };
 
