@@ -1,16 +1,18 @@
-{
-  "version": 2,
-  "name": "AXELLESCIENCE",
-  "builds": [
-    {
-      "src": "About.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/About.html"
-    }
-  ]
-}
+// Objek JavaScript yang akan dikembalikan sebagai respons
+const responseObject = {
+    message: "Hello, world!"
+};
+
+// Konversi objek JavaScript ke string JSON
+const responseBody = JSON.stringify(responseObject);
+
+// Buat respons yang mengembalikan `body` sebagai string JSON
+const response = {
+    statusCode: 200,
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: responseBody  // Pastikan `body` adalah string JSON
+};
+
+return response;
