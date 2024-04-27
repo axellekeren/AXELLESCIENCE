@@ -1,13 +1,21 @@
-const responseObject = {
-    statusCode: 200,
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: {
+exports.handler = async (event) => {
+    // Buat objek JavaScript yang ingin Anda kembalikan
+    const responseObject = {
         message: "Hello, world!"
-    }
-};
+    };
 
-// Gunakan JSON.stringify() untuk mengonversi objek JavaScript ke JSON string
-const jsonString = JSON.stringify(responseObject);
-console.log(jsonString);
+    // Konversi objek ke string JSON menggunakan JSON.stringify()
+    const responseBody = JSON.stringify(responseObject);
+
+    // Buat respons yang benar
+    const response = {
+        statusCode: 200,
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: responseBody // Pastikan body menggunakan responseBody
+    };
+
+    // Kembalikan respons
+    return response;
+};
