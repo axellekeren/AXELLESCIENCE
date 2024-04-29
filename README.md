@@ -8,7 +8,7 @@ Explore our educational content about various scientific topics. Below you will 
 
 ## 📚 Course Content
 
-### 1. [What is Plate Tectonics?](plate_tectonics.html)
+### 1. [[What is Plate Tectonics?](plate_tectonics.html](https://github.com/axellekeren/AXELLESCIENCE/blob/master/plate_tectonics.html))
 
 ![Course Image](course_image1.jpg)
 
