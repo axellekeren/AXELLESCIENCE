@@ -10,7 +10,7 @@ Explore our educational content about various scientific topics. Below you will 
 
 ### 1. [What is Plate Tectonics?](plate_tectonics.html)
 
-![Course Image](c[ourse_image1.jpg](https://github.com/axellekeren/AXELLESCIENCE/blob/master/Default_mountains_2.jpg))
+
 
 Plate tectonics explains the movement of Earth's surface and how it has changed over geological time.
 
@@ -18,7 +18,6 @@ Plate tectonics explains the movement of Earth's surface and how it has changed 
 
 ### 2. [What is the Earth's Outer Core?](outer_core.html)
 
-![Course Image](course_image2.jpg)
 
 The outer layer of Earth's core is a liquid layer made of iron and nickel. Learn more about its properties and significance.
 
@@ -26,7 +25,6 @@ The outer layer of Earth's core is a liquid layer made of iron and nickel. Learn
 
 ### 3. [History of Mathematics](mathematics.html)
 
-![Course Image](course_image3.jpg)
 
 The history of mathematics is a journey of human thought, exploring patterns and solving problems across centuries.
 
@@ -34,7 +32,7 @@ The history of mathematics is a journey of human thought, exploring patterns and
 
 ### 4. [Pangaea: Facts about an Ancient Supercontinent](pangaea.html)
 
-![Course Image](course_image4.jpg)
+
 
 Pangaea was Earth's most recent supercontinent, existing from 320 to 195 million years ago.
 
@@ -42,7 +40,7 @@ Pangaea was Earth's most recent supercontinent, existing from 320 to 195 million
 
 ### 5. [What are Nerve Cells?](nerve_cells.html)
 
-![Course Image](course_image5.jpg)
+
 
 Nerve cells, also known as neurons, are the basic units of the nervous system responsible for transmitting information throughout the body.
 
@@ -50,7 +48,7 @@ Nerve cells, also known as neurons, are the basic units of the nervous system re
 
 ### 6. [What is the Optic Nerve?](optic_nerve.html)
 
-![Course Image](course_image6.jpg)
+
 
 The optic nerve connects the eye to the brain, transmitting visual information for processing.
 
@@ -58,7 +56,7 @@ The optic nerve connects the eye to the brain, transmitting visual information f
 
 ### 7. [List of Cranial Nerve Mnemonics](cranial_nerve_mnemonics.html)
 
-![Course Image](course_image7.jpg)
+
 
 Explore the mnemonics used to remember the names and functions of the cranial nerves.
 
