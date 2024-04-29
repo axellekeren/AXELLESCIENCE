@@ -10,7 +10,8 @@ Explore our educational content about various scientific topics. Below you will 
 
 ### 1. [What is Plate Tectonics?](plate_tectonics.html)
 
-![Course Image](c[ourse_image1.jpg](https://github.com/axellekeren/AXELLESCIENCE/blob/master/Default_mountains_2.jpg))
+
+![just-the-basics](https://awsimages.detik.net.id/community/media/visual/2020/05/14/30440740-1343-4e4e-9a9d-780604ec553d.jpeg?w=650)
 
 Plate tectonics explains the movement of Earth's surface and how it has changed over geological time.
 
