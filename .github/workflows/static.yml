@@ -15,14 +15,19 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}  # Gunakan GITHUB_TOKEN untuk checkout repositori
 
       - name: Build and Deploy
-        # Langkah untuk membangun dan mengunggah ke GitHub Pages
         run: |
-          # Tambahkan perintah untuk membangun dan mengunggah di sini
-          # Misalnya, perintah untuk membangun situs statis atau mengeksekusi tugas lainnya
-
-          # Setelah selesai membangun, gunakan perintah berikut untuk mengunggah:
+          # Perintah untuk membangun situs dan melakukan deployment
+          # Misalnya, perintah untuk menjalankan perintah Jekyll
+          jekyll build --sass-dir assets/css --output _site
+          
+          # Ganti `jekyll build` dengan perintah sesuai kebutuhan Anda
+          
+          # Tambahkan perintah deployment ke GitHub Pages
           echo "Deploying to GitHub Pages..."
-          # Ganti `your-deployment-command` dengan perintah pengunggahan yang Anda butuhkan
+          # Perintah pengunggahan ke GitHub Pages
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Pastikan untuk memasukkan GITHUB_TOKEN di lingkungan
+          # Tambahkan konfigurasi SASS sesuai kebutuhan
+          SASS_DIR: 'assets/css'  # Jalur input SCSS
+          OUTPUT_DIR: '_site/assets/css'  # Jalur output CSS
